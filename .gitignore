@@ -35,3 +35,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 terraform
+
+# vim swap file
+*.swp
