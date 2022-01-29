@@ -8,6 +8,10 @@ up:
 down:
 	docker-compose down
 
+log: logs
+logs:
+	docker-compose logs api
+
 test:
 	curl localhost:19090/health
 
